@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tushar Raj music factory</title>
+    <link rel="stylesheet" href="style.css">
+  <link rel="t music" href="images/t music .png" type="images/t music .png">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <nav>
+            <div class="logo">🎵 Tushar Raj music factory</div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contect.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <div class="music-player">
+            <div class="top-bar">
+                <i class="ri-arrow-left-line back-btn"></i>
+                <div class="theme-toggle">
+                    <i class="ri-moon-line moon-icon"></i>
+                    <i class="ri-sun-line sun-icon hidden"></i>
+                </div>
+            </div>
+
+            <div class="album-art-container">
+                <img src="images/album-art-placeholder.jpg" alt="Album Art" class="album-art">
+            </div>
+
+            <div class="song-info">
+                <h2 class="song-title">Song Title</h2>
+                <p class="artist-name">Artist Name</p>
+            </div>
+
+            <div class="progress-container">
+                <div class="progress-bar"></div>
+            </div>
+
+            <div class="time-info">
+                <span class="current-time">0:00</span>
+                <span class="total-duration">0:00</span>
+            </div>
+
+            <div class="controls">
+                <button class="shuffle-btn"><i class="ri-shuffle-fill"></i></button>
+                <button class="prev-btn"><i class="ri-skip-back-fill"></i></button>
+                <button class="play-pause-btn"><i class="ri-play-fill"></i></button>
+                <button class="next-btn"><i class="ri-skip-forward-fill"></i></button>
+                <button class="repeat-btn"><i class="ri-repeat-line"></i></button>
+            </div>
+
+            <div class="bottom-controls">
+                <i class="ri-volume-down-fill volume-icon"></i>
+                <input type="range" class="volume-slider" min="0" max="1" step="0.01" value="1">
+                <i class="ri-playlist-line playlist-toggle"></i>
+            </div>
+        </div>
+
+        <div class="playlist-panel">
+            <div class="playlist-header">
+                <h2>Playlist</h2>
+                <i class="ri-close-line close-playlist"></i>
+            </div>
+            <ul class="playlist">
+                </ul>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h3>About Us</h3>
+                <p>Hi I am tushar, sigma university bca student creating a music player for a project</p>
+            </div>
+            <div class="footer-section tags">
+                <h3>Tags</h3>
+                <div class="tag-list">
+                    <span>Music</span>
+                    <span>Player</span>
+                    <span>Responsive</span>
+                    <span>WebDev</span>
+                    <span>JS</span>
+                </div>
+            </div>
+            <div class="footer-section contact-info">
+                <h3>Contact</h3>
+                <p>Email: kothariyatushar24@gmail.com</p>
+                <p>Phone: +91 96628-98221</p>
+                <div class="social-icons">
+                    <a href="https://google.com" class="social-icon"><i class="ri-google-fill"></i></a>
+                    <a href="https://facebook.com" class="social-icon"><i class="ri-facebook-fill"></i></a>
+                    <a href="https://twitter.com" class="social-icon"><i class="ri-twitter-fill"></i></a>
+                    <a href="https://instagram.com" class="social-icon"><i class="ri-instagram-fill"></i></a>
+                    <a href="https://youtube.com" class="social-icon"><i class="ri-youtube-fill"></i></a>
+                    <a href="https://tiktok.com" class="social-icon"><i class="ri-tiktok-fill"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2025 My Music Player. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
